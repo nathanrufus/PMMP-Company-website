@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    padding: 3rem;
+    background: #fff;
+    margin: 2rem 0;
+}
+
+h2 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about .why {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .why ul {
+    list-style: disc inside;
+    width: 48%;
+}
+
+.service-cards, .testimonial-cards, .team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card, .testimonial-card, .team-member {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.service-card i {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-card img, .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #007BFF;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #007BFF;
+    color: white;
+}
