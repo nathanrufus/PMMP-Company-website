@@ -58,17 +58,27 @@ h2 {
 
 .testimonial-card img, .team-member img {
     width: 100%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 0.5rem;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .social-links a {
-    margin: 0 0.5rem;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #007BFF;
+    color: #3b5998; 
+    transition: color 0.3s ease;
 }
+
+.social-links a:hover {
+    color: #1d1d1d; 
+}
+
 
 footer {
     text-align: center;
